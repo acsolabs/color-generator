@@ -9,6 +9,9 @@ body {
 }
 
 .color-display-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 90px;
   width: 400px;
   background-image: linear-gradient(
@@ -25,7 +28,7 @@ body {
   text-align: center;
   color: beige;
   font-weight: 600;
-  letter-spacing: 2px;
-  font-size: 1.1rem;
+  letter-spacing: 4px;
+  font-size: 1.6rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
